@@ -1,0 +1,61 @@
+.body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(108, 168, 236, 0.7),rgba(114, 101, 41, 0.7)),url(drone.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header, .navbar, button{
+    width: 100%;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+}
+
+.navbar{
+    font-size: 12px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    padding-left: 10%;
+}
+.boxes{
+    margin-top: 45px;
+    height: 100%;
+}
+.box1{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.box, .navbar{
+    overflow: hidden;
+}
+.boxes, .box{
+    width: 80%;
+    margin-left: 10%;
+}
+button {
+    font-size: 16px;
+	cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+	border: none;
+	background-color: #347edf;
+	color: #e5eff5;
+}
+button p{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+button:hover{
+	background: red;
+}
